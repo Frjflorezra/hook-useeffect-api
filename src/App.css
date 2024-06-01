@@ -1,0 +1,19 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+ /* Adjust this value to make the carousel smaller */
+  object-fit: cover;
+}
+
+.custom-carousel {
+  width: 60%; /* Adjust this value to make the carousel smaller */
+  max-width: 700px; /* Maximum width for larger screens */
+  margin: auto;
+}
